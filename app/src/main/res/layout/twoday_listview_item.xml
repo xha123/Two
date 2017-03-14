@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#ffffff">
+    <TextView
+        android:id="@+id/twoday_listview_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="40dp"
+
+        android:textSize="35sp"
+        android:textColor="#330202"
+        />
+        <TextView
+            android:id="@+id/twoday_listview_grade_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/twoday_listview_name_tv"
+            android:layout_marginLeft="40dp"
+
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:id="@+id/twoday_listview_heng_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/twoday_listview_grade_tv"
+            android:layout_below="@id/twoday_listview_name_tv"
+            android:layout_marginTop="10dp"
+            android:text="—"
+            android:textSize="30sp"
+            />
+        <TextView
+            android:id="@+id/twoday_listview_cla_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/twoday_listview_heng_tv"
+            android:layout_below="@id/twoday_listview_name_tv"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            />
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="30dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@mipmap/ic_launcher"
+                />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="#ec5d5d">
+
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>
